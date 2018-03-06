@@ -1,0 +1,401 @@
+html, body {
+    height: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: #FAFAFA;
+    -webkit-border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+    height: 5px;
+    background-color: #999999;
+    -webkit-border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    width: 0px;
+    background-color: #FAFAFA;
+    -webkit-border-radius: 2px;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    min-width: 1024px;
+}
+
+.container .main {
+    width: 100%;
+    height: 980px;
+    min-width: 1024px;
+    min-height: 980px;
+    background: url(../img/bg.jpg) no-repeat center;
+    position: relative;
+}
+
+.main .logo {
+    width: 269px;
+    height: 76px;
+    background: url(../img/logo.png) no-repeat center;
+    position: absolute;
+    top: 3%;
+    left: 3%;
+}
+
+.header {
+    position: relative;
+    top: 0;
+    width: 100%;
+    min-width: 1024px;
+}
+
+.header .flash_box {
+    position: relative;
+    top: 0;
+    left: 50%;
+    width: 1920px;
+    min-height: 968px;
+    margin-left: -960px;
+}
+
+/*.main .left-pic-1 {*/
+/*width: 1007px;*/
+/*height: 805px;*/
+/*left: -14%;*/
+/*top: 12%;*/
+/*position: absolute;*/
+/*background: url(../img/1pic.png) no-repeat center;*/
+/*}*/
+
+/*.light-1 {*/
+/*width: 264px;*/
+/*height: 286px;*/
+/*position: absolute;*/
+/*left: 21%;*/
+/*background: url(../img/z-qiu.png);*/
+/*}*/
+
+/*.main .main-content .right-pic-1 {*/
+/*width: 811px;*/
+/*height: 821px;*/
+/*position: absolute;*/
+/*right: -11%;*/
+/*top: 12%;*/
+/*background: url(../img/2pic.png) no-repeat center;*/
+/*}*/
+
+/*.light-2 {*/
+/*width: 264px;*/
+/*height: 286px;*/
+/*position: absolute;*/
+/*top: 11%;*/
+/*left: 20%;*/
+/*background: url(../img/z-qiu.png);*/
+/*}*/
+
+/*.light-animation {*/
+/*animation: start-ani 1.8s linear 0s infinite normal both;*/
+/*-ms-animation: start-ani 1.8s linear 0s infinite normal both;*/
+/*-moz-animation: start-ani 1.8s linear 0s infinite normal both;*/
+/*-webkit-animation: start-ani 1.8s linear 0s infinite normal both;*/
+/*animation-timing-function: linear;*/
+/*animation-fill-mode: both;*/
+/*}*/
+
+.middleBox {
+    margin: 0 auto;
+    width: 700px;
+    height: 350px;
+    z-index: 9;
+    top: 43%;
+    left: 32%;
+    position: absolute;
+}
+
+.middleBox {
+    o-animation: img3-ani 1s 0.8s;
+    animation: img3-ani 1s 0.8s;
+    -ms-animation: img3-ani 1s 0.82s;
+    -webkit-animation: img3-ani 1s 0.8s;
+    -moz-animation: img3-ani 1s 0.8s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.middleBox .word {
+    width: 698px;
+    height: 430px;
+    background: url(../img/slogan.png) no-repeat;
+    position: absolute;
+    left: -1%;
+    top: 10%;
+}
+
+.middleBox .video {
+    background: url(../img/playBg.png) no-repeat;
+    height: 118px;
+    width: 225px;
+    position: relative;
+    -webkit-animation: upAndDown 2s ease-in infinite;
+    -moz-animation: upAndDown 2s ease-in infinite;
+    -ms-animation: upAndDown 2s ease-in infinite;
+    animation: upAndDown 2s ease-in infinite;
+    cursor: pointer;
+}
+
+.middleBox .video p {
+    background: url(../img/btn.png) no-repeat;
+    height: 35px;
+    width: 31px;
+    position: absolute;
+    top: 38%;
+    left: 46%;
+}
+
+.middleBox .downloadBox {
+    position: relative;
+    top: 30%;
+    left: 11%;
+    width: 306px;
+    height: 281px;
+    background: url(../img/qr_code_box.png) no-repeat center;
+}
+
+.middleBox .qr-code {
+    width: 151px;
+    height: 152px;
+    position: absolute;
+    left: 25%;
+    top: 20%;
+    background: url(../img/qr_code.png) no-repeat center;
+}
+
+.middleBox .qr-code .light {
+    left: 15px;
+    top: 0;
+    position: absolute;
+    width: 123px;
+    height: 11px;
+    background: url(../img/light.png) 0 0 no-repeat;
+    -moz-animation: code 3s linear infinite;
+    -webkit-animation: code 3s linear infinite;
+    -o-animation: code 3s linear infinite;
+    -ms-animation: code 3s linear infinite;
+    animation: code 3s linear infinite
+}
+
+.middleBox .herf-box {
+    position: absolute;
+    top: 18%;
+    right: -52%;
+}
+
+.middleBox .downloadBox .herf-box a {
+    width: 189px;
+    height: 55px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.middleBox .downloadBox .herf-box a:hover {
+    opacity: .8;
+    filter: alpha(opacity=80);
+}
+
+.middleBox .downloadBox .herf-box .ios {
+    background: url(../img/ios.png) no-repeat;
+}
+
+.middleBox .downloadBox .herf-box .google {
+    background: url(../img/google.png) no-repeat;
+}
+
+.middleBox .downloadBox .herf-box .apk {
+    background: url(../img/apk.png) no-repeat;
+}
+
+.main .musicBtn {
+    width: 12px;
+    cursor: pointer;
+    height: 13px;
+    top: 16%;
+    right: 13%;
+    position: absolute;
+    z-index: 11;
+    background: url(../img/music-on.gif) no-repeat;
+}
+
+.main .musicBtn-stop {
+    width: 12px;
+    cursor: pointer;
+    display: none;
+    height: 13px;
+    top: 16%;
+    right: 13%;
+    position: absolute;
+    z-index: 11;
+    background: url(../img/music-off.png) no-repeat;
+}
+
+/*video*/
+.blackBg {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 49;
+    background: #000000;
+    opacity: .5;
+    -webkit-opacity: 0.5;
+    /* Netscape and Older than Firefox 0.9 */
+    -moz-opacity: 0.5;
+    /* Safari 1.x (pre WebKit!)*/
+    -khtml-opacity: 0.5;
+    /* IE9 + etc...modern browsers */
+    /* IE 4-9 */
+    filter: alpha(opacity=50) !important;
+    /*This works in IE 8 & 9 too*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)" !important;
+    /*IE4-IE9*/
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+    display: none;
+}
+
+.video {
+    position: fixed;
+    z-index: 999;
+    top: 30%;
+    left: 33%;
+}
+
+.video .video_box {
+    position: fixed;
+    background: #000000;
+    width: 640px;
+    height: 360px;
+    display: none;
+    z-index: 10001;
+}
+
+.ivideo {
+    width: 640px;
+    height: 360px;
+}
+
+.closeBtn {
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+    right: -51px;
+    width: 43px;
+    height: 43px;
+    background: url(../img/closeBtn2.png);
+    text-indent: -9999px;
+    -webkit-transition: All .3s ease-in;
+    -moz-transition: All .3s ease-in;
+    -ms-transition: All .3s ease-in;
+    -o-transition: All .3s ease-in;
+    transition: All .3s ease-in;
+}
+
+.closeBtn:hover {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+}
+
+@keyframes start-ani {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes upAndDown {
+    0%, 100% {
+        -webkit-transform: translateY(-10px)
+    }
+    50% {
+        -webkit-transform: translateY(0)
+    }
+}
+
+@-moz-keyframes upAndDown {
+    0%, 100% {
+        -moz-transform: translateY(-10px)
+    }
+    50% {
+        -moz-transform: translateY(0)
+    }
+}
+
+@-o-keyframes upAndDown {
+    0%, 100% {
+        -o-transform: translateY(-10px)
+    }
+    50% {
+        -o-transform: translateY(0)
+    }
+}
+
+@-ms-keyframes upAndDown {
+    0%, 100% {
+        -ms-transform: translateY(-10px)
+    }
+    50% {
+        -ms-transform: translateY(0)
+    }
+}
+
+@keyframes upAndDown {
+    0%, 100% {
+        transform: translateY(-10px)
+    }
+    50% {
+        transform: translateY(0)
+    }
+}
+
+@keyframes code {
+    0% {
+        top: 156px
+    }
+    25% {
+        top: 100px
+    }
+    50% {
+        top: 56px
+    }
+    75% {
+        top: 10px
+    }
+    100% {
+        top: 130px
+    }
+}
